@@ -1,5 +1,7 @@
-import Descricao.Area;
-import Descricao.Tipo;
+package events;
+
+import descricao.Area;
+import descricao.Tipo;
 
 public class RegistrationEvent extends Event {
     public final Tipo tipo;
