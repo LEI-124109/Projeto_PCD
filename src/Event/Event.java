@@ -1,3 +1,5 @@
+package Event;
+
 import java.io.Serializable;
 import Descricao.Area;
 import Descricao.Tipo;
