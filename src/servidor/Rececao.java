@@ -25,7 +25,6 @@ public class Rececao extends Thread {
 
             RegistrationEvent registo = (RegistrationEvent) in.readObject();
             TratadorCliente tratador;
-
             switch(registo.getTipo()){
                 case Sensor:
                     tratador = new TratadorSensor(servidor, socket, in, out, registo.getArea());

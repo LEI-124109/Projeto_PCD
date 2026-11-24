@@ -16,7 +16,6 @@ public class Servidor {
     }
 
     public void iniciar() throws IOException {
-        System.out.println("Servidor à escuta...");
         while (true) {
             Socket socket = serverSocket.accept();
 
